@@ -13,4 +13,4 @@ model = RandomForestClassifier(n_estimators=100, random_state=42) model.fit(X_tr
 Make a prediction
 new_sample = [[6.5, 50, 30, 20, 3.5]] # Replace with real values prediction = model.predict(new_sample) print("Predicted Fertility:", prediction) Results Model achieved XX% accuracy on the test set Feature importance analysis shows pH and Nitrogen as key factors Future Improvements Hyperparameter tuning for better accuracy Experimenting with deep learning models Building a web app for user interaction 📝 Contributing Feel free to fork this repository and submit a pull request for improvements.
 
-📜 License This project is licensed under the MIT License.
+
